@@ -260,6 +260,8 @@ class Game {
    */
   start() {
     this.status = 'playing';
+    this.addRandomCell();
+    this.addRandomCell();
   }
 
   /**

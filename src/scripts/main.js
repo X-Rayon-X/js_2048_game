@@ -22,6 +22,7 @@ buttonStartRestart.addEventListener('click', () => {
     buttonStartRestart.classList.replace('start', 'restart');
     buttonStartRestart.textContent = 'Restart';
     game.start();
+    updateBoard();
     messageStart.classList.add('hidden');
 
     document.addEventListener('keydown', handleKeyDown);
